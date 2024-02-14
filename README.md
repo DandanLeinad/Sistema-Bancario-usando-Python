@@ -2,29 +2,20 @@
 
 Este desafio faz parte do bootcamp da DIO, ministrado pelo professor [Guilherme Arthur de Carvalho](https://github.com/guicarvalho).
 
-## Objetivo Geral
+## Objetivo do Desafio 2.0.0
 
-O objetivo é criar um sistema bancário com as operações de sacar, depositar e visualizar extrato.
+Neste desafio, você terá a oportunidade de otimizar o Sistema Bancário previamente desenvolvido com o uso de funções Python. O objetivo é aprimorar a estrutura e a eficiência do sistema, implementando as operações de depósito, saque e extrato em funções específicas. Você terá a chance de refatorar o código existente, dividindo-o em funções reutilizáveis, facilitando a manutenção e o entendimento do sistema como um todo. Prepare-se para aplicar conceitos avançados de programação e demonstrar sua habilidade em criar soluções mais elegantes e eficientes utilizando Python.
 
-## Desafio
+## Prévia da Versão 2.0.0
 
-Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
+- Refatoração do código para implementar as operações como funções Python.
+- Otimização da estrutura do sistema bancário.
+- Implementação de funções específicas para as operações de depósito, saque e extrato.
+- Adição de funcionalidades para criar usuário, criar conta e listar contas.
 
-### Operação de Depósito
+## Versão 2.0.0
 
-Deve ser possível depositar valores positivos para a conta bancária. A versão 1.0.0 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária. Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
-
-### Operação de Saque
-
-O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque. Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo. Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato.
-
-### Operação de Extrato
-
-Essa operação deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve ser exibido o saldo atual da conta. Se o extrato estiver em branco, exibir a mensagem: Não foram realizadas movimentações. Os valores devem ser exibidos utilizando o formato R$ xxx.xx.
-
-## Versão 1.0.0
-
-Essa é a versão inicial do sistema bancário.
+Essa é a versão atualizada e otimizada do sistema bancário.
 
 ## Licença
 
